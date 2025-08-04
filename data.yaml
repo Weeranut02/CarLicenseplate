@@ -1,0 +1,13 @@
+train: ../train/images
+val: ../valid/images
+test: ../test/images
+
+nc: 4
+names: ['Digit', 'Licenseplate', 'Provincename', 'Thaichar']
+
+roboflow:
+  workspace: licenseplate-urm2n
+  project: licenseplate-x1lgi
+  version: 1
+  license: CC BY 4.0
+  url: https://universe.roboflow.com/licenseplate-urm2n/licenseplate-x1lgi/dataset/1
